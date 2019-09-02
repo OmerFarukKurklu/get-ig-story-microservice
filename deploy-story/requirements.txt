@@ -1,0 +1,5 @@
+requests
+falcon
+gunicorn
+boto3
+multiprocess
