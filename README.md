@@ -5,6 +5,7 @@ A microservice which takes an username as parameter and gets all of user's stori
 the goal is to get the given user's available stories. So the main project/product this microservice created for can use the stories for their sdk.
 
 ## Libraries and wsgi used
+- **[Docker](https://www.docker.com/)**
 - **[gunicorn](https://gunicorn.org/)** (WSGI server for python)
 - **[Falcon](https://falconframework.org/)** (Web API framework for python)
 - **[boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html?id=docs_gateway)** (Amazon Web Services SDK for Python, I used for S3 Buckets.)
