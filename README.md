@@ -64,9 +64,12 @@ Docker, with the `requirements.txt` file should install all the necessary librar
 
 Once done the microservice is set and running.
 
-You can use the service with a GET request to the IP address of the machine you are using, send a GET requast to 
+You can use the service with a GET request to the IP address of the machine you are using, send a GET requast to
+
 `[IP ADDRESS OF YOUR SERVER]:8080/story?u=[INSTAGRAM ACCOUNT USERNAME]`
+
 It should return you a key such as `username123456789`. Using this key you can check the process inside the server for status updates and check for error messages. Send a GET request to the status endpoint `/story/status`
+
 `[IP ADDRESS OF YOUR SERVER]:8080/story/status?key=[KEY]`
 
 ## Future work
